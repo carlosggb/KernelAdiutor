@@ -35,10 +35,10 @@ import java.util.List;
  */
 public class Wakelocks {
 
-    private static final String WLAN_RX_DIVIDER = "/sys/module/bcmdhd/parameters/wl_divide";
+    private static final String WLAN_RX_DIVIDER = "/sys/module/dhd/parameters/wl_divide";
     private static final String MSM_HSIC_DIVIDER = "/sys/module/xhci_hcd/parameters/wl_divide";
-    private static final String BCMDHD_DIVIDER = "/sys/module/bcmdhd/parameters/wl_divide";
-    private static final String WLAN_CTRL_DIVIDER = "/sys/module/bcmdhd/parameters/wlctrl_divide";
+    private static final String BCMDHD_DIVIDER = "/sys/module/dhd/parameters/wl_divide";
+    private static final String WLAN_CTRL_DIVIDER = "/sys/module/dhd/parameters/wlctrl_divide";
 
     public static class Wakelock {
 
